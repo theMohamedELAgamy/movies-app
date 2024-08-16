@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MoviesListViewController" customModule="iOSTask" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="74f-61-whG" id="Qad-Ei-bGa"/>
+                <outlet property="moviesTV" destination="egj-7k-ipx" id="Eep-eM-dMW"/>
+                <outlet property="view" destination="DG1-6X-bFa" id="d1R-P9-NmR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="DG1-6X-bFa">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zD6-Eg-coq">
+                    <rect key="frame" x="20" y="67" width="353" height="28.666666666666671"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="egj-7k-ipx">
+                    <rect key="frame" x="20" y="111.66666666666669" width="353" height="696.33333333333326"/>
+                </tableView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="74f-61-whG">
+                    <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="tkq-ML-Q6e"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="tkq-ML-Q6e" firstAttribute="trailing" secondItem="zD6-Eg-coq" secondAttribute="trailing" constant="20" id="2x6-YQ-LK8"/>
+                <constraint firstItem="egj-7k-ipx" firstAttribute="leading" secondItem="tkq-ML-Q6e" secondAttribute="leading" constant="20" id="H31-79-PrD"/>
+                <constraint firstItem="tkq-ML-Q6e" firstAttribute="bottom" secondItem="egj-7k-ipx" secondAttribute="bottom" constant="10" id="MD0-Gh-frp"/>
+                <constraint firstItem="zD6-Eg-coq" firstAttribute="leading" secondItem="tkq-ML-Q6e" secondAttribute="leading" constant="20" id="PXR-04-IXK"/>
+                <constraint firstItem="zD6-Eg-coq" firstAttribute="top" secondItem="tkq-ML-Q6e" secondAttribute="top" constant="8" id="Quq-ua-arf"/>
+                <constraint firstItem="tkq-ML-Q6e" firstAttribute="trailing" secondItem="egj-7k-ipx" secondAttribute="trailing" constant="20" id="Z0n-14-baI"/>
+                <constraint firstItem="74f-61-whG" firstAttribute="centerX" secondItem="DG1-6X-bFa" secondAttribute="centerX" id="kTg-k1-uq0"/>
+                <constraint firstItem="egj-7k-ipx" firstAttribute="top" secondItem="zD6-Eg-coq" secondAttribute="bottom" constant="16" id="mcu-yC-rZd"/>
+                <constraint firstItem="74f-61-whG" firstAttribute="centerY" secondItem="DG1-6X-bFa" secondAttribute="centerY" id="nXA-q0-Kvh"/>
+            </constraints>
+            <point key="canvasLocation" x="-1088" y="-90"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

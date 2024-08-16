@@ -1,0 +1,13 @@
+//
+//  release.xcconfig
+//  iOSTask
+//
+//  Created by Mohamed Nabil on 15/08/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+MOVIES_API_KEY = 806832f51d077672b05a8719785d04d9
+MOVIES_API_TOKEN = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4MDY4MzJmNTFkMDc3NjcyYjA1YTg3MTk3ODVkMDRkOSIsIm5iZiI6MTcyMzc0NDIyOC40OTA2MzUsInN1YiI6IjY2YmUzOWJjMzYyMjMyYjZjMjgyOGY1MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.tEhsICXjt9j0L4ceQvMluIQP7HqBixyMYWotId-DF6w
